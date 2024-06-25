@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  font-size: 1.7rem;
+  border: 2px rgb(255, 177, 10) solid;
+}
+
+.button-group {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+}
